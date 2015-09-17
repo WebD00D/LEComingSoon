@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 120px;
+	background: none;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: rgba(01,01,01,0.5);
+}
+
+.full {
+  background: url(http://localhost/Laborem/img/LEBanner.png) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.maintitle{
+	color:white;
+	margin-top:13%;
+	font-size:55px;
+}
+.maintitle2{
+	color:white;
+	margin-top:35%;
+	font-size:26px
+}
+.LENav {
+	background-color:rgba(01,01,01,0.0);
+}
+.subtitle{
+	color:white;
+}
+.LEInputs{
+	font-size:20px;
+	color:#EEEEEE;
+	width:100%;
+	padding:10px;
+	background-color:rgba(255,255,255,0.1);
+	border:none;
+}
+
+::-webkit-input-placeholder {
+    color: #EEEEEE;
+}
+
+.selectbox{
+	width: 100%;
+	color:#EEEEEE;
+	background-color:rgba(255,255,255,0.1);
+	font-size:20px;
+	height:48px;
+	padding:10px;
+	border:none;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.styledselect select {
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+}
+
+.LESubmit {
+	color:#f0e99a;
+	background-color:transparent;
+	border:2px solid #f0e99a;
+	padding:10px;
+	text-align: left;
+	margin-top:37px;
+	width:100%;
+}
+
+button:hover{
+	color:white;
+	border-color:white;
+}
