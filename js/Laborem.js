@@ -12,17 +12,17 @@ Parse.initialize("yIHXb3Um6tiVf6e8NZGoQZqZLBH5eIfEHBora4fb", "oxPjuyuWdSTlsfhBpD
 //  }
 //});
 
-Parse.Cloud.run('testfunction', { barz: 'bar' }, {
-  success: function(result) {
-    alert('retrieved ' + result.length + ' values. Here they are:');
-    for (var i = 0; i < result.length; i ++){
-      var returnedvalue = result[i];
-      alert(returnedvalue.get('someVal'));
-    }
-  },
-  error: function(error) {
-  }
-});
+//Parse.Cloud.run('testfunction', { barz: 'bar' }, {
+//  success: function(result) {
+//    alert('retrieved ' + result.length + ' values. Here they are:');
+//    for (var i = 0; i < result.length; i ++){
+//      var returnedvalue = result[i];
+//      alert(returnedvalue.get('someVal'));
+//    }
+//  },
+//  error: function(error) {
+//  }
+//});
 
 
 })
