@@ -5,11 +5,52 @@
  */
 
 body {
-	margin-top: 50px;
+	margin-top: 0px;
   margin-bottom: 120px;
 	background: none;
 }
 
+.navbar-toggle{
+	border-color: transparent;
+}
+.navbar-toggle:hover{
+	border-color: transparent;
+}
+
+.icon-bar{
+	background-color:white;
+}
+
+.navbar-toggle{
+	margin-top:30px;
+}
+
+.navbar-static .navbar-nav > li > a:hover, .navbar-static .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #f0e99a;
+}
+.navbar-static .navbar-nav > li > a {
+    background-color: transparent;
+    color: white;
+}
+
+.thinFont{
+font-family: "fira-sans-2",sans-serif;
+font-style: normal;
+font-weight: 500;
+}
+
+.happyFont{
+font-family: "ff-tisa-web-pro",serif;
+font-style: italic;
+font-weight: 400;
+}
+
+.headingFont{
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 700;
+}
 
 
 .footer {
@@ -23,7 +64,7 @@ body {
 
 .full {
 /*  background: url(http://localhost/Laborem/img/LEBanner.png) no-repeat center center fixed; */
-	background: url(../img/LEBanner.png) no-repeat center center fixed;
+	background: url(../img/LEBanner.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,11 +78,12 @@ body {
 }
 .maintitle2{
 	color:white;
-	margin-top:35%;
+	margin-top:15%;
 	font-size:26px
 }
 .LENav {
-	background-color:rgba(01,01,01,0.0);
+	background-color:rgba(01,01,01,0.5);
+
 }
 .subtitle{
 	color:white;
@@ -51,7 +93,7 @@ body {
 	color:#EEEEEE;
 	width:100%;
 	padding:10px;
-	background-color:rgba(255,255,255,0.1);
+	background-color:rgba(255,255,255,0.2);
 	border:none;
 }
 
@@ -62,7 +104,7 @@ body {
 .selectbox{
 	width: 100%;
 	color:#EEEEEE;
-	background-color:rgba(255,255,255,0.1);
+	background-color:rgba(255,255,255,0.2);
 	font-size:20px;
 	height:48px;
 	padding:10px;
@@ -96,7 +138,15 @@ select {
 	width:100%;
 }
 
-button:hover{
-	color:white;
-	border-color:white;
+.LESubmit2{
+	color:#2ecc71;
+	background-color:transparent;
+	border: 2px solid #2ecc71;
+	padding:10px;
+	text-align: left;
+	margin-top: 37px;
+	width:100%;
 }
+
+
+button:focus {outline:0;}

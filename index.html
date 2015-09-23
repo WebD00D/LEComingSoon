@@ -12,38 +12,62 @@
     <title>Laborem Edge | Hand crafted digital experiences tailored to your brand.</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="css/sweetalert.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+    <script src="https://use.typekit.net/fqa7iyh.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
 <body>
-    <nav class="navbar navbar-static LENav" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a style="margin-top:5px;margin-left:0px" class="navbar-brand brandimg" href="#"><img style="height:90px;" src=".../../img/LEWhiteLogowTEXT.png" class="img-responsive" /></a>
-            </div>
-        </div>
-    </nav>
+
+
+    <nav class="navbar navbar-static LENav">
+         <div class="container">
+           <div class="navbar-header">
+             <button style="margin-top:8px"  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span  class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+               <a class="navbar-brand" style="padding-bottom:10px;padding-top:9px" href="#"><img style="height:30px;" src="img/LEWhiteLogoNEW.png" class="img-responsive" ></a>
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+
+             <ul class="nav navbar-nav navbar-right">
+
+               <li  class="thinFont"><a style="padding-top:15px" href="tel:18042013219">Call Us </a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div>
+       </nav>
+
+
+
+
 
     <div class="container">
+
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="maintitle2 hidden-xl hidden-lg hidden-md hidden-sm text-left">We hand craft<Br> digital experiences<Br>custom tailored to your brand.</h1>
-                <h1 class="maintitle hidden-xs"><b>We hand craft digital experiences<Br> custom tailored to your brand.</b></h1>
+
+                <h1 class="headingFont maintitle2 hidden-xl hidden-lg hidden-md hidden-sm text-center">We hand craft digital experiences custom tailored to your brand.</h1>
+                <h1 class="headingFont maintitle hidden-xs"><b>We hand craft digital experiences<Br> custom tailored to your brand.</b></h1>
                   <hr class="hidden-xs" style="margin-left:25%;margin-right:25%">
-                  <hr class="hidden-xl hidden-lg hidden-md hidden-sm">
-                  <h3 class="hidden-xs" style="font-family:palatino;font-style:italic;color:white;line-height:40px"><b>
+
+                  <h3 class="hidden-xs happyFont" style="color:white;line-height:40px"><b>
                       We're adjusting the seams of our site to fit our ever growing agency.
                       <br>
                        If you are
                       interested in getting a bespoke fit for yours as well, <Br>please fill out the form below.
                   </b></h3>
 
-                  <h3 class="hidden-xl hidden-lg hidden-md hidden-sm text-left" style="font-family:palatino;font-style:italic;color:white;line-height:40px;font-size:22px;margin-top:44px"><b>
-                      We're adjusting the seams of our site <Br>to fit our ever growing agency.
-                    <Br>
+                  <h4 class="happyFont hidden-xl hidden-lg hidden-md hidden-sm text-center" style="color:white;line-height:40px;font-size:15px;margin-top:30px;"><b>
+                      We're adjusting the seams of our site to fit our ever growing agency.
+
                        If you are
-                      interested in getting a bespoke fit for yours as well, <Br>please fill out the form below.
-                  </b></h3>
+                      interested in getting a bespoke fit for yours as well, please fill out the form below.
+                  </b></h4>
                 </div>
             </div>
         </div>
@@ -51,28 +75,31 @@
 
      <div class="container" style="padding-top:30px;padding-bottom:30px">
        <div class="col-lg-4 text-left">
-           <h5 style="color:#f0e99a">What's your goal?</h5>
-             <select class="selectbox">
-               <option>Build a new web site/app</option>
-               <option>Revamp my current site</option>
+           <h5 class="thinFont" style="color:#f0e99a">What's your goal?</h5>
+             <select class="selectbox thinFont">
+               <option>Bring my idea to life</option>
+               <option>Make my current site mobile friendly</option>
+               <option>Landing page for a product/service</option>
+               <option>Build a dashboard for my business </option>
+               <option>Spruce up my current site</option>
                <option>Have an e-commerce site</option>
                <option>Design / re-design my logo</option>
-               <option>Bring my digital idea to life.</option>
+
              </select>
        </div>
         <div class="col-lg-4 text-left">
-          <h5 style="color:#f0e99a">Enter your email</h5>
-          <input class="LEInputs" type="Email" placeholder="You@example.com">
+          <h5 class="thinFont" style="color:#f0e99a">Enter your email</h5>
+          <input id="_email" class="LEInputs thinFont" type="Email" placeholder="You@example.com">
         </div>
          <div class="col-lg-4 text-left">
-           <button class="LESubmit">SUBMIT <i class="glyphicon glyphicon-chevron-right pull-right"></i></button>
+           <button id="SubmitMe" class="LESubmit thinFont"><span class="btnText">SUBMIT</span> <i class="glyphicon glyphicon-chevron-right pull-right"></i></button>
          </div>
      </div>
      <div class="col-lg-4 col-lg-offset-4 text-center">
        <ul class="list-inline">
-        <li><a style="color:white" href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-        <li><a style="color:white" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-        <li><a style="color:white" href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a style="color:white" href="https://www.facebook.com/LaboremEdge"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a style="color:white" href="https://instagram.com/Laboremedge/"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a style="color:white" href="https://twitter.com/laboremedge"><i class="fa fa-twitter fa-2x"></i></a></li>
        </ul>
      </div>
 
@@ -81,6 +108,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="//www.parsecdn.com/js/parse-1.6.2.min.js"></script>
+    <script src="js/sweetalert-dev.js"></script>
     <script src="js/Laborem.js"></script>
 
 </body>
